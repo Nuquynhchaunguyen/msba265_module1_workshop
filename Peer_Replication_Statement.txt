@@ -1,0 +1,8 @@
+Peer Replication Statement
+
+I confirm that I cloned Nu Quynh Chau Nguyen’s MSBA 265 Module 1 GitHub repository and followed the instructions provided in the README file without live assistance from the submitter.
+
+I was able to successfully run the project and reproduce the required workflow on my own computer.
+
+Peer Reviewer Name: Nguyen My San
+Date: 09/13/2026
