@@ -19,12 +19,14 @@ The project is designed to be fully reproducible from the command line and Jupyt
 
 ## Repository Structure
 
+```text
 msba265_module1_workshop/
 │
 ├── .gitignore
 ├── README.md
 ├── requirements.txt
 ├── Module1_Homework_Report.pdf
+├── Peer_Replication_Statement.txt
 │
 ├── data/
 │   ├── download_data.py
@@ -51,21 +53,43 @@ msba265_module1_workshop/
 ### 1. Clone the Repository
 
 git clone https://github.com/Nuquynhchaunguyen/msba265_module1_workshop.git
+
 cd msba265_module1_workshop
 
 ### 2. Create a Virtual Environment
 
+#### macOS / Linux
+
+```bash
 python3 -m venv venv
+```
+
+#### Windows
+
+```powershell
+python -m venv venv
+```
 
 ### 3. Activate the Virtual Environment
 
 #### macOS / Linux
 
+```bash
 source venv/bin/activate
+```
 
-#### Windows
+#### Windows PowerShell
 
-venv\Scripts\activate
+```powershell
+Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process
+.\venv\Scripts\Activate.ps1
+```
+
+#### Windows Command Prompt
+
+```cmd
+venv\Scripts\activate.bat
+```
 
 ### 4. Install Project Dependencies
 
