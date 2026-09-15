@@ -45,16 +45,16 @@ msba265_module1_workshop/
         ├── correlation_heatmap.png
         ├── feature_distributions.png
         └── outlier_filtering_comparison.png
-
----    
+```
+---  
 
 ## Setup Instructions
-
 ### 1. Clone the Repository
 
+```bash
 git clone https://github.com/Nuquynhchaunguyen/msba265_module1_workshop.git
-
 cd msba265_module1_workshop
+```
 
 ### 2. Create a Virtual Environment
 
@@ -69,7 +69,6 @@ python3 -m venv venv
 ```powershell
 python -m venv venv
 ```
-
 ### 3. Activate the Virtual Environment
 
 #### macOS / Linux
