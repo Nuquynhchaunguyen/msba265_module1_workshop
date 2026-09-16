@@ -120,7 +120,14 @@ Open:
 
 notebooks/01_eda_and_data_dictionary.ipynb
 
-Run all notebook cells from top to bottom.
+Before running the notebook, select the active project virtual environment (venv) as the Jupyter kernel:
+
+1. Click the kernel selector in the top-right corner of VS Code.
+2. Choose **Select Another Kernel** if needed.
+3. Select the Python interpreter from the project `venv`.
+4. Confirm that the selected kernel corresponds to the project virtual environment.
+
+Then run all notebook cells from top to bottom.
 
 The notebook performs:
 
